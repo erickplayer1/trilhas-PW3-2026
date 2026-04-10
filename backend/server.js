@@ -5,6 +5,7 @@ const loginRoutes = require("./src/roots/loginRoutes");
 const app = express();
 const PORT = 3000;
 
+//Midd
 app.use(cors());
 app.use(express.json());
 
